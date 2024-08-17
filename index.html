@@ -4,10 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dancing+Script:wght@400..700&family=Manrope:wght@200..800&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cedarville+Cursive&family=Dancing+Script:wght@400..700&family=Manrope:wght@200..800&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .roboto-regular {
+            font-family: "Roboto", sans-serif;
+            
+        }
+
+        .bebas-neue-regular {
+        font-family: "Bebas Neue", sans-serif;
+
+        }
+    </style>
 
 </head>
 <body>
-    
+    <div class="bg-[#FFFBF0]">
+        <header class="w-4/5 mx-auto pt-8 ">
+            <nav class="flex justify-between items-center ">
+                <div class="flex items-center gap-4 roboto-regular">
+                    <img class="h-20 w-20" src="./icons/box.png" alt="">
+                    <h1 class="text-xl"><span class="text-[#A4BC46]">Penguin</span> Fashion</h1>
+                </div>
+                <div class="flex gap-4 roboto-regular text-xl items-center">
+                    <p class="lg:block sm:hidden">Home</p>
+                    <p class="lg:block sm:hidden">product</p>
+                    <p class="lg:block sm:hidden">About Us</p>
+                    <p class="lg:block sm:hidden">Contact Us</p>
+                    <p class="lg:hidden sm:block"><i class="fa-solid fa-bars"></i></p>
+                </div>
+            </nav>
+            <!-- winter-container  -->
+            <div class="mt-5 w-4/5 mx-auto lg:flex justify-between items-center ml-0">
+                <!-- winter-content -->
+                <div>
+                    <h1 class="bebas-neue-regular text-7xl uppercase"><span class="text-[#FABE4C]">Be the Penguins <br>
+                        </span><span class="text-[#363958]">of winter</span></h1>
+                        <p class="roboto-regular text-base mb-4">Lorem Ipsum is simply dummy text of the printing <br>
+                            and typesetting industry.</p>
+                            <button class="bg-[#A4BC46] px-6 py-4 rounded-xl text-white text-lg"><i class="fa-solid fa-cart-shopping"></i>  Buy Now</button>
+                </div>
+                <!-- class="winter-image" -->
+                <div>
+                    <img src="./images/model.png" alt="">
+                </div>
+            </div>
+        </header>
+    </div>
+    <main>
+        <section>
+            
+        </section>
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
